@@ -334,7 +334,7 @@ static int GetMaxDefaultVideoBitrateKbps(int width, int height) {
   } else if (width * height <= 960 * 540) {
     return 2000;
   } else {
-    return 2500;
+    return 25000;
   }
 }
 
